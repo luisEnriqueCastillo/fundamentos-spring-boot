@@ -1,2 +1,5 @@
-package com.fundamentosplatzi.springboot.fundamentos.component;public class ComponentDependency {
+package com.fundamentosplatzi.springboot.fundamentos.component;
+
+public interface ComponentDependency {
+    void doSaludar();
 }
